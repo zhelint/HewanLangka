@@ -16,13 +16,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Membuat ArrayList untuk menampung semua informasi tentang hewan
-        ArrayList<String> hewan = new ArrayList<>();
+        ArrayList<InfoBinatang> binatang = new ArrayList<>();
 
-        hewan.add("Sapi");
-        hewan.add("Kuda");
+        binatang.add(new InfoBinatang("Androchan", "Androchan punah saat perjalanannya menuju Bandung.", R.mipmap.ic_launcher_round));
 
         //Menggunakan ArrayAdapter untuk mengambil tiap elemen, dan menampilkannya di ListView
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, hewan);
+        ArrayAdapter<InfoBinatang> adapter = new ArrayAdapter<InfoBinatang>(this, android.R.layout.simple_list_item_1, binatang);
 
         //ListView untuk menggunakan layout dari "ArrayAdapter" dan menampilkannya dlm bentuk list
         ListView listView = findViewById(R.id.listview);
