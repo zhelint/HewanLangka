@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">Dicoding Submission</string>
+    <string name="app_name">Hewan Langka Indonesia</string>
+
+    <!--For the "profile" activity-->
+    <string name="profile">Profil</string>
+    <string name="my_name">Name_Example</string>
+    <string name="my_email">example@mail.com</string>
+
+    <!--1. Harimau Sumatera-->
+    <string name="title_harimau_sumatera">Harimau Sumatera</string>
+    <string name="desc_harimau_sumatera">Harimau Sumatera adalah salah satu hewan yg membuatku ihhhh takut kamu garang sekali why are you so mad bung katanya. I dunno man, it\'s just me.</string>
+
+    <!--2. Burung Cendrawasih-->
+    <string name="title_burung_cendrawasih">Burung Cendrawasih</string>
+    <string name="desc_burung_cendrawasih">
+        Jadi gini ges, aku mau ngejelasin burung cendrawasih,
+        tapi aku aja baru dengar namanya. Bagaimana aku tahu rupa dan fisiknya? Anggap saja seperti ovva korea bertubuh ondel2.
+    </string>
 </resources>

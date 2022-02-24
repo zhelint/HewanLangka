@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/shari/AndroidStudioProjects/DicodingSubmission/app/src/main/res/layout/activity_detail_hewan.xml" value="0.1" />
         <entry key="..\:/Users/shari/AndroidStudioProjects/DicodingSubmission/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/shari/AndroidStudioProjects/DicodingSubmission/app/src/main/res/layout/activity_my_profile.xml" value="0.12" />
         <entry key="..\:/Users/shari/AndroidStudioProjects/DicodingSubmission/app/src/main/res/layout/card_view.xml" value="0.33" />
         <entry key="..\:/Users/shari/AndroidStudioProjects/DicodingSubmission/app/src/main/res/layout/list_view.xml" value="0.209375" />
         <entry key="..\:/Users/shari/AndroidStudioProjects/DicodingSubmission/app/src/main/res/menu/menu_file.xml" value="0.18" />

@@ -1,6 +1,8 @@
 package com.sharinamatul.android.dicodingsubmission;
 
 import android.content.Context;
+import android.content.Intent;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,6 +20,9 @@ import java.util.List;
 
 public class BinatangAdapter extends ArrayAdapter<InfoBinatang> {
 
+    private ClickEvents clickEvents;
+    public static final String JUDUL_EXTRA = "judul";
+    public static final String DESC_EXTRA = "deskripsi";
 
     public BinatangAdapter(@NonNull Context context, @NonNull ArrayList<InfoBinatang> objects) {
         super(context, 0, objects);
@@ -37,11 +42,35 @@ public class BinatangAdapter extends ArrayAdapter<InfoBinatang> {
         fotoBinatang.setImageResource(R.mipmap.ic_launcher);
 
         TextView judul = listItemView.findViewById(R.id.judul);
-        judul.setText("Ini Judul");
+        if(currentInfoBinatang.getResourceNamaBinatang() != 0){
+            judul.setText(currentInfoBinatang.getResourceNamaBinatang());
+        } else {
+            judul.setText(currentInfoBinatang.getStringNamaBinatang());
+        }
 
         TextView deskripsi = listItemView.findViewById(R.id.deskripsi);
-        deskripsi.setText("tools:text=\"Pretend that this is something I really want to pursue but what if I cannot achieve that? that'd be embarassing.\"\n");
+        if(currentInfoBinatang.getResourceDeskripsi() != 0){
+            deskripsi.setText(currentInfoBinatang.getResourceDeskripsi());
+        } else {
+            deskripsi.setText(currentInfoBinatang.getStringDeskripsi());
+        }
 
+/*        //OnClickListener for the View in ArrayAdapter
+        //When the View is clicked, it will open DetailHewan activity, and pass the data contains judul and description
+        listItemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getContext(), DetailHewan.class);
+                int judulValue = currentInfoBinatang.getResourceNamaBinatang();
+                int deskripsiValue = currentInfoBinatang.getResourceDeskripsi();
+
+                intent.putExtra(JUDUL_EXTRA, judulValue);
+                intent.putExtra(DESC_EXTRA, deskripsiValue);
+                getContext().startActivity(intent);
+                Log.v("konteks", getContext().toString());
+            }
+        });*/
         return listItemView;
     }
+
 }
