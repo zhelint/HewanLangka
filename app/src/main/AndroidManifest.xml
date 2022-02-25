@@ -11,10 +11,19 @@
         android:theme="@style/Theme.DicodingSubmission">
         <activity
             android:name=".DetailHewan"
-            android:exported="false" />
+            android:parentActivityName=".MainActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
         <activity
             android:name=".MyProfile"
-            android:exported="false" />
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">

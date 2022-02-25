@@ -8,7 +8,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -23,6 +25,7 @@ public class BinatangAdapter extends ArrayAdapter<InfoBinatang> {
     private ClickEvents clickEvents;
     public static final String JUDUL_EXTRA = "judul";
     public static final String DESC_EXTRA = "deskripsi";
+    public static final String FOTO_EXTRA = "foto";
 
     public BinatangAdapter(@NonNull Context context, @NonNull ArrayList<InfoBinatang> objects) {
         super(context, 0, objects);
@@ -38,21 +41,48 @@ public class BinatangAdapter extends ArrayAdapter<InfoBinatang> {
 
         InfoBinatang currentInfoBinatang = getItem(position);
 
+        //Store each data needed from InfoBinatang in a variable
+        int resourcesJudul = currentInfoBinatang.getResourceNamaBinatang();
+        int resourcesDeskripsi = currentInfoBinatang.getResourceDeskripsi();
+        int resourcesFoto = currentInfoBinatang.getIdFotoBinatang();
+
+        //Set the onClickListener to listView LinearLayout
+        //Will do this if the Card (LinearLayout) is clicked
+        LinearLayout linearLayout = listItemView.findViewById(R.id.cardLinearLayout);
+        linearLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //Declare a variable, contains this context
+                Context context = getContext();
+
+                //Create new intent when the view is clicked
+                Intent intent = new Intent(context, DetailHewan.class);
+
+                //Declare a variable
+
+                //Put extra, so that the data can be passed to another DetailHewan intent
+                intent.putExtra(JUDUL_EXTRA, resourcesJudul);
+                intent.putExtra(DESC_EXTRA, resourcesDeskripsi);
+                intent.putExtra(FOTO_EXTRA, resourcesFoto);
+                Log.v("ekstra val: ", ""+ resourcesJudul + ", " + resourcesDeskripsi);
+                context.startActivity(intent);
+
+//                Toast.makeText(getContext(), "Clicked!", Toast.LENGTH_SHORT).show();
+//                Log.v("konteks", ""+getContext());
+            }
+        });
+
         ImageView fotoBinatang = listItemView.findViewById(R.id.foto);
-        fotoBinatang.setImageResource(R.mipmap.ic_launcher);
+        fotoBinatang.setImageResource(resourcesFoto);
 
         TextView judul = listItemView.findViewById(R.id.judul);
-        if(currentInfoBinatang.getResourceNamaBinatang() != 0){
-            judul.setText(currentInfoBinatang.getResourceNamaBinatang());
-        } else {
-            judul.setText(currentInfoBinatang.getStringNamaBinatang());
+        if(resourcesJudul != 0){
+            judul.setText(resourcesJudul);
         }
 
         TextView deskripsi = listItemView.findViewById(R.id.deskripsi);
-        if(currentInfoBinatang.getResourceDeskripsi() != 0){
-            deskripsi.setText(currentInfoBinatang.getResourceDeskripsi());
-        } else {
-            deskripsi.setText(currentInfoBinatang.getStringDeskripsi());
+        if(resourcesDeskripsi != 0){
+            deskripsi.setText(resourcesDeskripsi);
         }
 
 /*        //OnClickListener for the View in ArrayAdapter
@@ -60,14 +90,8 @@ public class BinatangAdapter extends ArrayAdapter<InfoBinatang> {
         listItemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getContext(), DetailHewan.class);
-                int judulValue = currentInfoBinatang.getResourceNamaBinatang();
-                int deskripsiValue = currentInfoBinatang.getResourceDeskripsi();
-
-                intent.putExtra(JUDUL_EXTRA, judulValue);
-                intent.putExtra(DESC_EXTRA, deskripsiValue);
-                getContext().startActivity(intent);
-                Log.v("konteks", getContext().toString());
+                Toast.makeText(view.getContext(), "Clicked!", Toast.LENGTH_SHORT);
+                Log.v("konteks", ""+getContext());
             }
         });*/
         return listItemView;

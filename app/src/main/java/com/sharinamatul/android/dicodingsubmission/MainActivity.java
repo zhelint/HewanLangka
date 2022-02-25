@@ -41,11 +41,10 @@ public class MainActivity extends AppCompatActivity {
 
         //Membuat ArrayList untuk menampung semua informasi tentang hewan
         ArrayList<InfoBinatang> binatang = new ArrayList<>();
-
-        binatang.add(new InfoBinatang("Sasatoan", "Apa gitu terserah", R.mipmap.ic_launcher_round));
-        binatang.add(new InfoBinatang("Sasatoan", "Apa gitu terserah", R.mipmap.ic_launcher_round));
-        binatang.add(new InfoBinatang("Sasatoan", "Apa gitu terserah", R.mipmap.ic_launcher_round));
         binatang.add(new InfoBinatang(R.string.title_harimau_sumatera, R.string.desc_harimau_sumatera, R.mipmap.ic_launcher_round));
+        binatang.add(new InfoBinatang(R.string.title_burung_cendrawasih, R.string.desc_burung_cendrawasih, R.drawable.burung_jalak_bali));
+        binatang.add(new InfoBinatang(R.string.title_burung_cendrawasih, R.string.desc_burung_cendrawasih, R.drawable.burung_jalak_bali));
+
 
         //Menggunakan ArrayAdapter untuk mengambil tiap elemen, dan menampilkannya di ListView
         BinatangAdapter adapter = new BinatangAdapter(this, binatang);//Harusnya clickEvents dipanggil di sini

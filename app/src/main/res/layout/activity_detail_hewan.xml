@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="300dp"
         android:scaleType="centerCrop"
-        tools:src="@drawable/example_image"/>
+        tools:src="@drawable/burung_jalak_bali"/>
 
     <TextView
         android:id="@+id/hewan_title"
@@ -23,12 +23,14 @@
         android:padding="16dp"
         style="@style/title"/>
 
-    <TextView
+    <com.codesgood.views.JustifiedTextView
         android:id="@+id/hewan_descripton"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="18sp"
         android:paddingEnd="16dp"
         android:paddingStart="16dp"
+        android:fontFamily="@font/worksans_regular"
         android:textColor="@android:color/darker_gray"
         tools:text="@string/my_email" />
 

@@ -7,7 +7,7 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="130dp"
         android:layout_marginBottom="16dp"
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="1dp"
@@ -15,20 +15,22 @@
         android:focusable="false">
 
         <LinearLayout
+            android:id="@+id/cardLinearLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
             android:clickable="true"
             android:focusable="true"
-            android:background="?android:attr/selectableItemBackground"
-            android:onClick="detailHewan">
+            android:background="?android:attr/selectableItemBackground">
+            <!--android:onClick="detailHewan"-->
 
             <ImageView
                 android:contentDescription="hewan"
                 android:id="@+id/foto"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
-                tools:src="@mipmap/ic_launcher_round" />
+                android:scaleType="centerCrop"
+                tools:src="@drawable/burung_jalak_bali" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
