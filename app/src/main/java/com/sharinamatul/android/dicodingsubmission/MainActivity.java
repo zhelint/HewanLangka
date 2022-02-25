@@ -41,9 +41,20 @@ public class MainActivity extends AppCompatActivity {
 
         //Membuat ArrayList untuk menampung semua informasi tentang hewan
         ArrayList<InfoBinatang> binatang = new ArrayList<>();
-        binatang.add(new InfoBinatang(R.string.title_harimau_sumatera, R.string.desc_harimau_sumatera, R.mipmap.ic_launcher_round));
-        binatang.add(new InfoBinatang(R.string.title_burung_cendrawasih, R.string.desc_burung_cendrawasih, R.drawable.burung_jalak_bali));
-        binatang.add(new InfoBinatang(R.string.title_burung_cendrawasih, R.string.desc_burung_cendrawasih, R.drawable.burung_jalak_bali));
+        /*1*/
+        /*2*/binatang.add(new InfoBinatang(R.string.title_harimau_sumatera, R.string.desc_harimau_sumatera, R.drawable.komodo));
+        /*3*/binatang.add(new InfoBinatang(R.string.title_burung_cendrawasih, R.string.desc_burung_cendrawasih, R.drawable.harimau_sumatera));
+        /*4*/binatang.add(new InfoBinatang(R.string.title_burung_cendrawasih, R.string.desc_burung_cendrawasih, R.drawable.burung_cendrawasih));
+        /*5*/binatang.add(new InfoBinatang(R.string.title_burung_cendrawasih, R.string.desc_burung_cendrawasih, R.drawable.burung_jalak_bali));
+        /*6*/binatang.add(new InfoBinatang(R.string.title_burung_cendrawasih, R.string.desc_burung_cendrawasih, R.drawable.burung_merak));
+        /*7*/binatang.add(new InfoBinatang(R.string.title_burung_cendrawasih, R.string.desc_burung_cendrawasih, R.drawable.elang_flores));
+        /*8*/binatang.add(new InfoBinatang(R.string.title_burung_cendrawasih, R.string.desc_burung_cendrawasih, R.drawable.gajah_sumatera));
+        /*9*/binatang.add(new InfoBinatang(R.string.title_burung_cendrawasih, R.string.desc_burung_cendrawasih, R.drawable.owa_jawa));
+        /*10*/binatang.add(new InfoBinatang(R.string.title_burung_cendrawasih, R.string.desc_burung_cendrawasih, R.drawable.orangutan_kalimantan));
+        /*11*/binatang.add(new InfoBinatang(R.string.title_burung_cendrawasih, R.string.desc_burung_cendrawasih, R.drawable.macan_tutul_jawa));
+
+
+
 
 
         //Menggunakan ArrayAdapter untuk mengambil tiap elemen, dan menampilkannya di ListView
