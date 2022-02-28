@@ -6,14 +6,87 @@
     <string name="my_name">Name_Example</string>
     <string name="my_email">example@mail.com</string>
 
-    <!--1. Harimau Sumatera-->
-    <string name="title_harimau_sumatera">Harimau Sumatera</string>
-    <string name="desc_harimau_sumatera">Harimau Sumatera adalah salah satu hewan yg membuatku ihhhh takut kamu garang sekali why are you so mad bung katanya. I dunno man, it\'s just me.</string>
 
-    <!--2. Burung Cendrawasih-->
-    <string name="title_burung_cendrawasih">Burung Cendrawasih</string>
+    <!--Komodo-->
+    <string name="title_komodo">Komodo</string>
+    <string name="desc_komodo">
+        \t\tKomodo atau lengkapnya <b>biawak komodo</b> adalah spesies biawak besar yang terdapat di Pulau Komodo, Rinca, Flores, Gili Motang, dan Gili Dasami di Provinsi Nusa Tenggara Timur, Indonesia. Oleh penduduk asli pulau Komodo, biawak ini juga disebut dengan nama <b>ora</b>.\n\n
+        \t\tKomodo liar dewasa biasanya memiliki berat sekitar 70kg, tetapi komodo yang dipelihara di penangkaran sering kali memiliki bobot yang lebih berat. Komodo jantan lebih besar daripada komodo betina, dengan warna kulit dari abu-abu gelap sampai merah batu bata, sementara komodo betina biasanya berwarna hijau kecokelatan dan memiliki bercak kecil kuning pada tenggorokannya. Di dalam mulut komodo dewasa, terdapat sekitar 60 buah gigi yang bergerigi tajam sepanjang sekitar 2.5 cm, yang sering terlepas atau ditanggalkan. Komodo memiliki lidah yang panjang, berwarna kuning kecokelatan dan bercabang. Komodo memiliki gigitan yang sangat kuat yang sangat mematikan. Komodo memiliki air liur beracun yang berasal dari ribuan kelenjar pada area gusinya.\n\n
+        \t\tPenyebab Komodo termasuk hewan yang terancam punah adalah perubahan iklim. Menurut keterangan resmi IUCN, naiknya suhu global dan naiknya permukaan air laut diperkirakan akan mengurangi habitat yang cocok bagi komodo setidaknya 30% dalam 45 tahun ke depan. Selain itu, keberadaan komodo di luar kawasan lindung di Flores juga terancam oleh hilangnya habitat yang signifikan karena aktivitas manusia yang terus berlangsung.\n\n
+    </string>
+
+    <!--Cendrawasih-->
+    <string name="title_burung_cendrawasih">Cendrawasih</string>
     <string name="desc_burung_cendrawasih">
-        Jadi gini ges, aku mau ngejelasin burung cendrawasih,
-        tapi aku aja baru dengar namanya. Bagaimana aku tahu rupa dan fisiknya? Anggap saja seperti ovva korea bertubuh ondel2.
+        \t\tBurung Cendrawasih adalah salah satu jenis burung cantik yang ada di Indonesia. Burung yang dijuluki sebagai <i>Bird of Paradise</i> ini memang memiliki keindahan bulu yang luar biasa dan diibaratkan sebagai burung yang turun dari surga. Burung Cenderawasih biasanya ditemukan di Indonesia seperti di bagian Timur Papua, Papua Nugini, pulau-pulau selat Torres, dan Australia timur. Burung anggota keluarga ini dikenal karena bulu burung jantan pada banyak jenisnya, terutama bulu yang sangat memanjang dan rumit yang tumbuh dari paruh, sayap atau kepalanya.\n\n
+        \t\tCiri utama dari burung cantik ini adalah bulu-bulunya yang sangat indah, khususnya pada cendrawasih jantan. Biasanya bulu burung cendrawasih berwarna cerah dengan kombinasi warna hitam, biru, kuning, merah, cokelat, ungu, hijau, dan juga putih. Secara fisik, ukuran burung cendrawasih sangat beragam, mulai dari 15cm hingga 110 cm tergantung spesiesnya.\n\n
+        \t\tMasyarakat di Papua sering kali memakai bulu cenderawasih dalam pakaian dan adat mereka, dan beberapa abad yang lalu bulu cendrawasih banyak dijadikan sebagai bahan dasar pembuatan topi wanita di Eropa. Perburuan untuk mendapat bulu dan perusakan habitat menyebabkan penurunan jumlah burung pada beberapa jenis ke tingkat terancam; perusakan habitat karena penebangan hutan sekarang merupakan ancaman utama.\n\n
+    </string>
+
+    <!--Jalak Bali-->
+    <string name="title_jalak_bali">Jalak Bali</string>
+    <string name="desc_jalak_bali">
+        \t\tJalak Bali adalah sejenis burung pengicau berukuran sedang, dengan panjang lebih kurang 25cm. Jalak Bali ditemukan pertama kali pada tahun 1910. Nama ilmiah Jalak Bali dinamakan menurut pakar hewan berkebangsaan Inggris, Walter Rothschild, sebagai orang pertama yang mendeskripsikan spesies ini ke dunia pengetahuan pada tahun 1912.\n\n
+        \t\tBulu Jalak Bali 90% berwarna putih bersih. Pada ujung bulu sayap dan bulu ekornya ditemukan warna hitam yang lebarnya 25 mm. Pelupuk matanya berwarna biru tua mengelilingi bola mata. Paruhnya runcing dengan panjang 2–3 cm, dengan warna kuning kecoklatan pada bagian ujungnya. Burung jantan mempunyai jambul di kepalanya dengan beberapa helai bulu berwarna putih bersih\n\n
+        \t\tJalak Bali hanya ditemukan di hutan bagian barat Pulau Bali dan merupakan hewan endemik Indonesia. Penyebaran jalak bali secara alami hanya terdapat di Taman Nasional Bali Barat (TNBB). Jalak bali menyukai habitat hutan mangrove, hutan rawa, hutan musim dataran rendah dan daerah savana. Pada 2018, terdapat tiga lokasi tempat tersebarnya Jalak Bali, yaitu Taman Nasional Bali Barat; Nusa Penida; dan Begawan Foundation yang bertempat di Melinggih Kelod, Payangan.\n\n
+        \t\tPada 2015, diperkirakan kurang dari 100 Jalak Bali berkeliaran di alam liar. Kelangkaan ini disebabkan oleh beberapa faktor, diantaranya: Predator, seperti Biawak dan Ular yang ditemui di wilayah Nusa Penida; Faktor alam, yaitu karena habitat aslinya hanya terkonsentrasi di Taman Nasional Bali Barat; Perburuan liar.\n\n
+    </string>
+
+    <!--Elang Flores-->
+    <string name="title_elang_flores">Elang Flores</string>
+    <string name="desc_elang_flores">
+        \t\tElang Flores merupakan salah satu jenis raptor (burung pemangsa) endemik yang dipunyai Indonesia. Elang flores termasuk salah satu jenis burung endemik Indonesia yang dapat dijumpai di daerah timur khususnya di pulau Flores, Sumbawa, dan Lombok (di perbatasan Taman Nasional Rinjani).\n\n
+        \t\tElang flores tergolong burung berukuran besar dengan panjang tubuh sekitar 60 sampai 79 cm. Kepala putih, kadang dengan garis-garis coklat pada mahkota. Tubuh bagian atas coklat-kehitaman. Dada dan perut putih berpalang coklat kemerahan yang tipis. Ekor coklat dengan enam garis gelap. Kaki putih. Tidak ada perbedaan signifikan antara jantan-betina dan dewasa-muda. Mirip dengan elang brontok muda.\n\n
+        \t\tDari studi lapangan tentang elang flores ini, Gjershaug et al. (2004) menyimpulkan bahwa populasi spesies ini sekitar kurang dari 100 pasang, berdasarkan estimasi ukuran wilayah mereka sejauh 40 km². Raharjaningtrah dan Rahman (2004) secara independen memperkirakan populasi pada 73 sampai 75 pasangan, berdasarkan ekstrapolasi mereka dari perkiraan ukuran jelajah rumah 38,5 km² (n = 3). Atas dasar itu, mereka menyarankan bahwa mungkin ada 10 pasang di Lombok, 38 pasang di Sumbawa, dan 27 pasang di Flores.\n\n
+    </string>
+
+
+    <!--Merak Hijau-->
+    <string name="title_merak_hijau">Merak Hijau</string>
+    <string name="desc_merak_hijau">
+        \t\tMerak hijau adalah salah satu burung dari tiga spesies merak. Seperti burung-burung lainnya yang ditemukan di suku Phasianidae, merak hijau mempunyai bulu yang indah. Bulu-bulunya berwarna hijau keemasan. Burung jantan dewasa berukuran sangat besar, panjangnya dapat mencapai 300 cm, dengan penutup ekor yang sangat panjang. Di atas kepalanya terdapat jambul tegak. Burung betina berukuran lebih kecil dari burung jantan. Bulu-bulunya kurang mengkilap, berwarna hijau keabu-abuan dan tanpa dihiasi bulu penutup ekor.\n\n
+        \t\tPopulasi merak hijau tersebar di hutan terbuka dengan padang rumput di Republik Rakyat Tiongkok, Indocina, dan Jawa. Sebelumnya merak hijau ditemukan juga di India, Bangladesh, dan Malaysia, tetapi sekarang telah punah di sana. Walaupun berukuran sangat besar, merak hijau adalah burung yang pandai terbang.\n\n
+        \t\tPada musim berbiak, burung jantan memamerkan bulu ekornya di depan burung betina. Bulu-bulu penutup ekor dibuka membentuk kipas dengan bintik berbentuk mata. Pakan burung merak hijau terdiri dari aneka biji-bijian, pucuk rumput dan dedaunan, serta aneka serangga.\n\n
+        \t\tKarena banyaknya habitat hutan yang hilang dan penangkapan liar yang terus berlanjut, serta daerah dimana burung ini ditemukan sangat terpencar, merak hijau dievaluasikan sebagai rentan.\n\n
+    </string>
+
+    <!--Harimau Sumatra-->
+    <string name="title_harimau_sumatera">Harimau Sumatra</string>
+    <string name="desc_harimau_sumatera">
+        \t\tHarimau Sumatra merupakan salah satu sub-spesies harimau yang masih bertahan hidup hingga saat ini. Spesies ini juga dapat disebut Harimau Sunda. Nama “Sunda” mengacu pada kawasan biogeografi yang mencakup Sumatra, Jawa, dan Bali.\n\n
+        \t\tHarimau Sumatra memiliki tubuh yang relatif lebih kecil dibandingkan dengan Harimau Kontingental. Harimau jantan dewasa bisa memiliki tinggi hingga 60 cm dan panjang dari kepala hingga kaki mencapai 250 cm dan berat hingga 140 kg. Harimau betina memiliki panjang rata-rata 198 cm dan berat hingga 91 kg. Warna kulit Harimau Sumatra relatif lebih gelap, mulai dari kuning kemerah-merahan hingga oranye tua, dan memiliki garis loreng yang lebih rapat.\n\n
+        \t\tSatwa ini masuk dalam status Kritis <i>(Critically Endangered)</i>. Provinsi Riau adalah rumah bagi sepertiga dari seluruh populasi Harimau Sumatra. Secara keseluruhan, Harimau Sumatra hanya tersisa ≤ 400 individu saja. Kelangkaannya disebabkan oleh hilangnya habitat, berkurangnya jumlah spesies mangsa, dan perburuan.\n\n
+    </string>
+
+    <!--Macan Tutul-->
+    <string name="title_tutul_jawa">Macan Tutul Jawa</string>
+    <string name="desc_tutul_jawa">
+        \t\tMacan tutul jawa atau macan kumbang adalah salah satu subspesies dari macan tutul yang hanya ditemukan di hutan tropis, pegunungan dan kawasan konservasi Pulau Jawa, Indonesia. Macan tutul ini memiliki dua variasi warna kulit yaitu berwarna terang (oranye) dan hitam(macan kumbang). Macan tutul jawa adalah satwa indentitas Provinsi Jawa Barat.\n\n
+        \t\tSebagian besar populasi macan tutul dapat ditemukan di Taman Nasional Gunung Gede Pangrango, meskipun di semua taman nasional di Jawa dilaporkan pernah ditemukan hewan ini, mulai dari Ujung Kulon hingga Baluran. Berdasarkan dari hilangnya habitat hutan, penangkapan liar, serta daerah dan populasi di mana hewan ini ditemukan sangat terbatas, macan tutul jawa dievaluasikan sebagai Kritis sejak 2007.\n\n
+    </string>
+
+    <!--Owa Jawa-->
+    <string name="title_owa_jawa">Owa Jawa</string>
+    <string name="desc_owa_jawa">
+        \t\tOwa jawa adalah sejenis primata anggota suku Hylobatidae. Dengan populasi tersisa antara 1.000 – 2.000 ekor saja, kera ini adalah spesies owa yang paling langka di dunia. Owa jawa menyebar terbatas (endemik) di Jawa bagian barat.\n\n
+        \t\tOwa jawa tidak memiliki ekor, dan tangannya relatif panjang dibandingkan dengan besar tubuhnya. Tangan yang panjang ini diperlukannya untuk berayun dan berpindah di antara dahan-dahan dan ranting di tajuk pohon yang tinggi, tempatnya beraktivitas sehari-hari. Warna tubuhnya keabu-abuan, dengan sisi atas kepala lebih gelap dan wajah kehitaman.\n\n
+        \t\tKera ini hidup dalam kelompok-kelompok kecil semacam keluarga inti, terdiri dari pasangan hewan jantan dan betina, dengan satu atau dua anak-anaknya yang masih belum dewasa. Owa jawa merupakan pasangan yang setia, monogami. Rata-rata owa betina melahirkan sekali setiap tiga tahun, dengan masa mengandung selama 7 bulan. Anak-anaknya disusui hingga usia 18 bulan, dan terus bersama keluarganya sampai dewasa, yang dicapainya pada umur sekitar 8 tahun. Owa muda kemudian akan memisahkan diri dan mencari pasangannya sendiri.\n\n
+    </string>
+
+    <!--Orang Utan Kalimantan-->
+    <string name="title_orang_utan">Orang Utan Kalimantan</string>
+    <string name="desc_orang_utan">
+        \t\tOrang utan adalah satwa omnivora, tetapi sebagian besar mereka hanya makan tumbuh-tumbuhan, seperti buah-buahan liar, kulit pepohonan, dedaunan, dan bunga. Minumannya adalah air yang mereka seruput dari lubang-lubang di pepohonan. Orang utan membuat sarang-sarangnya di atas pohon untuk tidur di malam hari dan beristirahat di siang hari.\n\n
+        \t\tOrang utan Kalimantan memiliki warna rambut yang lebih gelap dan tubuh yang lebih besar dibanding Orangutan Sumatra. Tingkah laku Orangutan Kalimantan di alam yaitu bergerak lebih lambat dan sering melakukan aktifitas turun dari pohon dan menginjak tanah. Satwa ini memiliki rambut panjang dan kusut berwarna merah gelap kecoklatan, dengan warna pada bagian wajah mulai dari merah muda, merah, hingga hitam. Pelipis seperti bantal yang dimiliki oleh orangutan Borneo jantan dewasa membuat wajah satwa ini terlihat lebih besar. Akan tetapi, tidak semua orangutan Borneo jantan dewasa memiliki pelipis seperti bantal.\n\n
+        \t\tHutan dan lahan gambut merupakan pusat dari daerah jelajah orangutan, karena banyak menghasilkan tanaman berbuah besar. Orang utan Kalimantan hidup di sekitar dataran rendah Kalimantan, juga di sekitar daerah pegunungan setinggi 1500 meter di atas permukaan laut. Pada tahun 2017, diperkirakan terdapat 57.350 individu Orang utan Kalimantan di habitat seluas 16.013.600 hektar yang tersebar di 42 kantong populasi.\n\n
+        \t\tPenyebab terancamnya populasi orang utan yang paling utama adalah faktor deforestasi dan kerusakan habitat yang banyak terjadi karena konversi hutan untuk perkebunan kelapa sawit ataupun untuk lahan-lahan pertanian lainnya. Orang utan juga merupakan target yang mudah untuk perburuan liar karena badannya yang besar dan gerakannya yang lamban. Selani faktor tersebut, orang utan juga memiliki angka reproduksi yang sangat rendah. Seekor induk orang utan hanya akan melahirkan seekor bayi orang utan setiap 3-5 tahun sekali sehingga ketika terjadi penurunan populasi, orang utan akan sangat sulit untuk pulih.\n\n
+    </string>
+
+    <!--Gajah Sumatra-->
+    <string name="title_gajah_sumatra">Gajah Sumatra</string>
+    <string name="desc_gajah_sumatra">
+        \t\tGajah Sumatra adalah subspesies dari gajah asia yang hanya berhabitat di Pulau Sumatra. Gajah sumatra merupakan mamalia terbesar di Indonesia, beratnya mencapai 6 ton dan tumbuh setinggi 3,5 meter pada bahu.  Herbivora raksasa ini sangat cerdas dan memiliki otak yang lebih besar dibandingkan dengan mamalia darat lain. Telinga yang cukup besar membantu gajah mendengar dengan baik dan membantu mengurangi panas tubuh. Belalainya digunakan untuk mendapatkan makanan dan air dengan cara memegang atau menggenggam bagian ujungnya yang digunakan seperti jari untuk meraup.\n\n
+        \t\tBerdasarkan kajian WWF-Indonesia, dalam kisaran 25 tahun, Gajah Sumatra telah kehilangan sekitar 70% habitatnya, serta populasinya menyusut hingga lebih dari separuh. Estimasi populasi tahun 2007 adalah antara 2400 – 2800 individu. Namun, kini diperkirakan telah menurun jauh dari angka tersebut karena habitatnya terus menyusut dan pembunuhan yang terus terjadi. Khusus untuk di wilayah Riau dalam seperempat abad terakhir ini estimasi populasi Gajah Sumatra, yang telah lama menjadi benteng populasi gajah, menurun sebesar 84% hingga tersisa sekitar 210 ekor saja di tahun 2007. Lebih dari 100 individu Gajah yang sudah mati sejak tahun 2004.\n\n
+        \t\tMeskipun saat ini Gajah berstatus kritis, yang artinya spesies ini tidak boleh diperjualbelikan, tetapi perburuan dan perdagangan gadingnya menjadi salah satu ancaman serius bagi populasi gajah. Gading gajah banyak diperjualbelikan secara ilegal akibat tingginya permintaan produk gading di pasar gelap internasional. Gading gajah banyak diburu untuk dijadikan ukiran dan aksesoris. Banyak orang yang percaya bahwa memiliki produk ukiran atau aksesoris dari gading gajah dapat mengangkat derajat sosial dan menjadi hal bergengsi. Ini menyebabkan populasi gajah terus menurun dan mengantarnya ke gerbang kepunahan. Ancaman utama bagi Gajah Sumatra adalah hilangnya habitat mereka akibat aktivitas penebangan hutan yang tidak berkelanjutan perburuan dan perdagangan liar juga konversi hutan alam untuk perkebunan (sawit dan kertas) skala besar.\n\n
     </string>
 </resources>

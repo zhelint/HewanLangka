@@ -40,20 +40,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Membuat ArrayList untuk menampung semua informasi tentang hewan
+        //Urutan: 1) Komodo, 2) cendrawasih, jalak bali, elang, merak, 3) harimau, macan, 4) owa jawa, orangutan, 5)gajah sumatra
         ArrayList<InfoBinatang> binatang = new ArrayList<>();
-        /*1*/
-        /*2*/binatang.add(new InfoBinatang(R.string.title_harimau_sumatera, R.string.desc_harimau_sumatera, R.drawable.komodo));
-        /*3*/binatang.add(new InfoBinatang(R.string.title_burung_cendrawasih, R.string.desc_burung_cendrawasih, R.drawable.harimau_sumatera));
-        /*4*/binatang.add(new InfoBinatang(R.string.title_burung_cendrawasih, R.string.desc_burung_cendrawasih, R.drawable.burung_cendrawasih));
-        /*5*/binatang.add(new InfoBinatang(R.string.title_burung_cendrawasih, R.string.desc_burung_cendrawasih, R.drawable.burung_jalak_bali));
-        /*6*/binatang.add(new InfoBinatang(R.string.title_burung_cendrawasih, R.string.desc_burung_cendrawasih, R.drawable.burung_merak));
-        /*7*/binatang.add(new InfoBinatang(R.string.title_burung_cendrawasih, R.string.desc_burung_cendrawasih, R.drawable.elang_flores));
-        /*8*/binatang.add(new InfoBinatang(R.string.title_burung_cendrawasih, R.string.desc_burung_cendrawasih, R.drawable.gajah_sumatera));
-        /*9*/binatang.add(new InfoBinatang(R.string.title_burung_cendrawasih, R.string.desc_burung_cendrawasih, R.drawable.owa_jawa));
-        /*10*/binatang.add(new InfoBinatang(R.string.title_burung_cendrawasih, R.string.desc_burung_cendrawasih, R.drawable.orangutan_kalimantan));
-        /*11*/binatang.add(new InfoBinatang(R.string.title_burung_cendrawasih, R.string.desc_burung_cendrawasih, R.drawable.macan_tutul_jawa));
-
-
+        /*1*/binatang.add(new InfoBinatang(R.string.title_komodo, R.string.desc_komodo, R.drawable.komodo));
+        /*2*/binatang.add(new InfoBinatang(R.string.title_burung_cendrawasih, R.string.desc_burung_cendrawasih, R.drawable.burung_cendrawasih));
+        /*3*/binatang.add(new InfoBinatang(R.string.title_jalak_bali, R.string.desc_jalak_bali, R.drawable.burung_jalak_bali));
+        /*4*/binatang.add(new InfoBinatang(R.string.title_elang_flores, R.string.desc_elang_flores, R.drawable.elang_flores));
+        /*5*/binatang.add(new InfoBinatang(R.string.title_merak_hijau, R.string.desc_merak_hijau, R.drawable.merak_hijau));
+        /*6*/binatang.add(new InfoBinatang(R.string.title_harimau_sumatera, R.string.desc_harimau_sumatera, R.drawable.harimau_sumatera));
+        /*7*/binatang.add(new InfoBinatang(R.string.title_tutul_jawa, R.string.desc_tutul_jawa, R.drawable.macan_tutul_jawa));
+        /*8*/binatang.add(new InfoBinatang(R.string.title_owa_jawa, R.string.desc_owa_jawa, R.drawable.owa_jawa));
+        /*9*/binatang.add(new InfoBinatang(R.string.title_orang_utan, R.string.desc_orang_utan, R.drawable.orangutan_kalimantan));
+        /*10*/binatang.add(new InfoBinatang(R.string.title_gajah_sumatra, R.string.desc_gajah_sumatra, R.drawable.gajah_sumatera));
 
 
 
