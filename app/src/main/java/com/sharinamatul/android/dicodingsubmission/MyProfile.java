@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.Notification;
 import android.os.Bundle;
 import android.transition.Slide;
+import android.widget.ImageView;
 
 public class MyProfile extends AppCompatActivity {
 
@@ -28,6 +29,10 @@ public class MyProfile extends AppCompatActivity {
         slide.setDuration(500);
         getWindow().setExitTransition(slide);
 
+
+        //Set the ImageView with my photo
+        ImageView imageView = findViewById(R.id.profile_image);
+        imageView.setImageResource(R.drawable.foto_profile);
 
     }
 }
